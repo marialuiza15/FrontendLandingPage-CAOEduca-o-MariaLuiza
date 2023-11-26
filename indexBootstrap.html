@@ -1,0 +1,149 @@
+ <!-- 
+    
+    Feito por: Maria Luiza Lima Bastos
+
+    Desenvolvi o estilo visual do projeto utilizando uma combinação de CSS personalizado 
+    e as ferramentas oferecidas pelo framework Bootstrap, incluindo suas bibliotecas de 
+    CSS e Javascript integradas. 
+    
+ -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CAO Educação</title>
+    <link rel="icon" 
+      type="./img/logo.png" 
+      href="./img/logo.png" />
+    <link rel="stylesheet" href="styleBootstrap.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+    <!--Div menu-->
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <span class="fs-5">CAO Educação MPRJ</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="https://tableau2020.mprj.mp.br/t/MPMAPAS/views/Panorama_Educacao_Prototipo1/CAPA?%3Aembed=y&%3Aiid=1&%3AisGuestRedirectFromVizportal=y" class="nav-link">Panorama educação</a></li>
+            <li class="nav-item"><a href="https://www.mprj.mp.br/conheca-o-mprj/areas-de-atuacao/educacao/projetos-e-campanhas/educacao-sem-distincao" class="nav-link">Educação sem distinção</a></li>
+            <li class="nav-item"><a href="https://www.mprj.mp.br/conheca-o-mprj/areas-de-atuacao/educacao/documentos-e-publicacoes/publicacoes-do-cao" class="nav-link">Publicações do CAO</a></li>
+            <li class="nav-item"><a href="https://www.mprj.mp.br/conheca-o-mprj/areas-de-atuacao/educacao/documentos-e-publicacoes/informacoes-tecnico-juridicas-e-notas-tecnicas" class="nav-link">Informações técnico-jurídicas</a></li>
+            <li class="nav-item"><a href="https://www.mprj.mp.br/conheca-o-mprj/areas-de-atuacao/educacao/normas-internacionais-em-educacao" class="nav-link">Normas internacionais em educação</a></li>
+          </ul>
+        </header>
+      </div>
+
+      <!--Div área principal-->
+      <div class="showcase-area">
+        <div class="container">
+
+        <!--lado esquerdo-->
+        <div class="left">
+            <div class="titulogrande">
+              <h2>CENTRO DE APOIO OPERACIONAL DAS PROMOTORIAS DE JUSTIÇA DE TUTELA COLETIVA DE PROTEÇÃO À EDUCAÇÃO</h2>
+            </div>
+            <p class="texto">
+                O Ministério Público Estadual desempenha um papel fundamental na fiscalização da qualidade dos serviços educacionais em todas as etapas da educação básica. Os órgãos responsáveis pela tutela coletiva da educação abordam questões cruciais, como a falta de vagas na rede pública, a infraestrutura escolar e de pessoal, o funcionamento dos Conselhos de Educação, a promoção da gestão democrática, a qualidade e regularidade da alimentação escolar, a inclusão de pessoas com deficiência nas escolas, a valorização do magistério e o controle do financiamento educacional, incluindo recursos como FUNDEB, salário-educação, royalties do pré-sal e verbas da União para programas suplementares. Para proteger o direito à educação, o Ministério Público emite recomendações, celebra termos de ajustamento de conduta e instaura ações civis públicas para regularizar os serviços.
+            </p>
+            <div class="sup"></div>
+            <button type="button" class="btn btn-outline-info" ref="https://www.mprj.mp.br/conheca-o-mprj/areas-de-atuacao/educacao">Ir para o site</button>
+        </div>
+        <!--lado direito-->
+        <div class="right">
+            <img src="./img/estudante.png" class="estudanteimg" />
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!--Div área contato-->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 mb-md-0 text-body-secondary">Contato: cao.educacao@mprj.mp.br</span>
+          </div>
+        </footer>
+    </div>
+
+
+    <!--Div área projetos e campanhas-->
+    <div class="b-example-divider"></div>
+      <div class="container px-4 py-5" id="hanging-icons">
+        <h2 class="pb-2 border-bottom">Projetos e campanhas</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+            <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-bookmark-plus" viewBox="0 0 16 16">
+                        <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"/>
+                        <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4"/>
+                      </svg>
+                </div>
+                <div>
+                  <h3 class="fs-2 text-body-emphasis">Atribuições</h3>
+                  <p>As Promotorias de Justiça que atuam nesta área visam garantir o acesso de toda a população a um serviço educacional que proporcione aos estudantes o seu pleno desenvolvimento.</p>
+                  <a href="https://www.mprj.mp.br/conheca-o-mprj/areas-de-atuacao/educacao" class="btn btn-primary">
+                    Sobre
+                  </a>
+                </div>
+            </div>
+
+            <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                        <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="fs-2 text-body-emphasis">Panorama educação</h3>
+                    <p>O Panorama Educação é uma plataforma que analisa indicadores educacionais no Rio de Janeiro, orientando estrategicamente as ações do MPRJ para garantir o direito à Educação, em conformidade com o Plano Nacional de Educação.</p>
+                    <a href="https://tableau2020.mprj.mp.br/t/MPMAPAS/views/Panorama_Educacao_Prototipo1/CAPA?%3Aembed=y&%3Aiid=1&%3AisGuestRedirectFromVizportal=y" class="btn btn-primary">
+                        Sobre
+                    </a>
+                </div>
+            </div>
+
+            <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                        <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="fs-2 text-body-emphasis">Educação sem Distinção</h3>
+                    <p>O projeto visa reunir, produzir, sistematizar e divulgar dados, informações e conhecimento sobre a política pública educacional. Seu propósito é contribuir para o direcionamento estratégico dos esforços do MPRJ e fortalecer os mecanismos de controle social, aspectos essenciais no contexto de políticas públicas.</p>
+                    <a href="https://www.mprj.mp.br/conheca-o-mprj/areas-de-atuacao/educacao/projetos-e-campanhas/educacao-sem-distincao" class="btn btn-primary">
+                        Sobre
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+      
+       <!--Div footer-->
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span class="mb-3 mb-md-0 text-body-secondary">© 2023 CAO Educaçao MPRJ</span>
+                </div>
+            <div class="col-md-4 d-flex align-items-center"></div>
+            <span class="mb-3 mb-md-0 text-body-secondary">(Feito por: Maria Luiza Lima bastos)</span>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
