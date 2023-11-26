@@ -8,7 +8,7 @@ Visualização da versão feita sem o uso de framework (IndexSemFramework.html):
 ![WebSemFramework](https://github.com/marialuiza15/FrontendLandingPage-CAOEduca-o-MariaLuiza/assets/148253498/c2a26bfc-e8f3-410a-a98b-619f5766e082)
 
 
-Visualização da versão feita com o uso de framework (IndexComBootstrap.html):
+Visualização da versão feita com o uso de framework (IndexBootstrap.html):
 
 ![WebComBootstrap PT1](https://github.com/marialuiza15/FrontendLandingPage-CAOEduca-o-MariaLuiza/assets/148253498/3170f853-6d91-4706-8c6e-9e55b872981b)
 
