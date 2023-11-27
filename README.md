@@ -20,7 +20,7 @@ Desenvolvi o projeto em conformidade com a opção 2 do desafio de low code/no c
 
 No desenvolvimento, utilizai as plataformas MIT App inventor e MIT AI2 Companion.
 
-Disponivel como AppDocCAOEducacaoMPRJ-MariaLuiza.apk
+Disponivel como AppCAOEducacaoMPRJ-MariaLuiza.apk
 
  ![ImgA](https://github.com/marialuiza15/FrontendLandingPage-CAOEduca-o-MariaLuiza/assets/148253498/a068be7e-31ae-47ed-9c8e-2ba54a8d7ff3)
  
